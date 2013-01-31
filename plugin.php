@@ -3,7 +3,7 @@
 Plugin Name: Page Template Dashboard
 Plugin URI: http://tommcfarlin.com/page-template-dashboard/
 Description: An easy way to see which templates your pages are using without having to view the page editor.
-Version: 1.0
+Version: 1.0.1
 Author: Tom McFarlin
 Author URI: http://tommcfarlin.com/
 Author Email: tom@tommcfarlin.com
