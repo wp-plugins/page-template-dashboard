@@ -4,7 +4,7 @@ Donate link: http://tommcfarlin.com/projects/page-template-dashboard/
 Tags: page, templates
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.0.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,12 @@ For more information or to follow the project, check out the [project page](http
 1. The Pages Dashboard with the plugin activated.
 
 == Changelog ==
+
+= 1.1 =
+* Adding Finnish translation (thanks to <a href="http://twitter.com/SipuliSopuli/">Timi Wahalahti</a>)
+* Adding support for child themes (thanks to <a href="http://twitter.com/MaorH">Maor Chasen's</a> suggestion)
+* Using `get_page_template_slug` instead of reading Post Meta Data (thanks to <a href="http://twitter.com/MaorH/">Maor Chasen's</a> suggestion)
+* Updating the screenshot
 
 = 1.0.1 =
 * Minor update to the screenshot and the Development Information

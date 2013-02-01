@@ -3,7 +3,7 @@
 Plugin Name: Page Template Dashboard
 Plugin URI: http://tommcfarlin.com/page-template-dashboard/
 Description: An easy way to see which templates your pages are using without having to view the page editor.
-Version: 1.0.1
+Version: 1.1
 Author: Tom McFarlin
 Author URI: http://tommcfarlin.com/
 Author Email: tom@tommcfarlin.com
@@ -105,10 +105,10 @@ class PageTemplateDashboard {
 		if( 'template' == $column_name ) {
 			
 			// First, the get name of the template
-			$template_name = get_post_meta( $post->ID, '_wp_page_template', true );
+			$template_name = get_page_template_slug( $post->ID );
 			
 			// If the file name is empty or the template file doesn't exist (because, say, meta data is left from a previous theme)...
-			if( 0 == strlen( trim( $template_name ) ) || ! file_exists( get_template_directory() . '/' . $template_name ) ) {
+			if( 0 == strlen( trim( $template_name ) ) || ! file_exists( get_stylesheet_directory() . '/' . $template_name ) ) {
 			
 				// ...then we'll set it as default
 				$template_name = __( 'Default', 'page-template-dashboard' );
@@ -117,7 +117,7 @@ class PageTemplateDashboard {
 			// by using the WordPress `get_file_description` function
 			} else {
 
-				$template_name = get_file_description( get_template_directory() . '/' . $template_name );
+				$template_name = get_file_description( get_stylesheet_directory() . '/' . $template_name );
 				
 			} // end if
 			
