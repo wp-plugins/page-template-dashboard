@@ -4,7 +4,7 @@ Donate link: http://tommcfarlin.com/projects/page-template-dashboard/
 Tags: page, templates
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.1
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,7 @@ having to load the page editor.
 If no template is assigned, then the 'Default' template will be rendered; otherwise, the user-friendly name (rather than
 the file name) will be displayed.
 
-Finally, the plugin will properly handle the case when a page has a template assigned to it from a previous theme that 
+Finally, the plugin will properly handle the case when a page has a template assigned to it from a previous theme that
 does not exist in the current theme
 
 The plugin is also fully localized for translation.
@@ -45,6 +45,15 @@ For more information or to follow the project, check out the [project page](http
 1. The Pages Dashboard with the plugin activated.
 
 == Changelog ==
+
+= 1.2.0 =
+* Updating the version number
+* Fixed a debug message
+* Improved localization
+* Improved the code comments
+* Moved the plugin's class into its own file
+* Implemented the singleton pattern
+* Added LICENSE.txt
 
 = 1.1 =
 * Adding Finnish translation (thanks to <a href="http://twitter.com/SipuliSopuli/">Timi Wahalahti</a>)

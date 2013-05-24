@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress Plugin Boilerplate\n"
+"Project-Id-Version: Page Template Dasboard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-30 16:07-0500\n"
-"PO-Revision-Date: 2013-01-30 16:07-0500\n"
+"POT-Creation-Date: 2013-05-24 17:28-0500\n"
+"PO-Revision-Date: 2013-05-24 17:28-0500\n"
 "Last-Translator: Tom McFarlin <tom@tommcfarlin.com>\n"
 "Language-Team: Tom McFarlin <tom@tommcfarlin.com>\n"
 "Language: en_US\n"
@@ -13,13 +13,13 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../plugin.php:81
+#: ../class-page-template-dashboard.php:64
 msgid "Page Template"
 msgstr ""
 
-#: ../plugin.php:114
+#: ../class-page-template-dashboard.php:97
 msgid "Default"
 msgstr ""
