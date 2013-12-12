@@ -15,7 +15,7 @@
  * Plugin Name: Page Template Dashboard
  * Plugin URI:  http://tommcfarlin.com/page-template-dashboard/
  * Description: An easy way to see which templates your pages are using without having to view the page editor.
- * Version:     1.2.0
+ * Version:     1.3.0
  * Author:      Tom McFarlin
  * Author URI:  http://tommcfarlin.com/
  * Text Domain: page-template-dashboard-locale
@@ -30,5 +30,4 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-page-template-dashboard.php' );
-
 Page_Template_Dashboard::get_instance();
