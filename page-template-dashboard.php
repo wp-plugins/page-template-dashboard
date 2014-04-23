@@ -1,21 +1,20 @@
 <?php
 /**
- * The WordPress Plugin Boilerplate.
+ * Page Template Dashboard
  *
- * A foundation off of which to build well-documented WordPress plugins that also follow
- * WordPress coding standards and PHP best practices.
+ * An easy way to see which templates your pages are using without having to view the page editor.
  *
- * @package   PluginName
+ * @package   PTD
  * @author    Your Name <email@example.com>
  * @license   GPL-2.0+
- * @link      http://example.com
- * @copyright 2013 Your Name or Company Name
+ * @link      http://tommcfarlin.com/page-template-dashboard/
+ * @copyright 2013 - 2014 Tom McFarlin
  *
  * @wordpress-plugin
  * Plugin Name: Page Template Dashboard
  * Plugin URI:  http://tommcfarlin.com/page-template-dashboard/
  * Description: An easy way to see which templates your pages are using without having to view the page editor.
- * Version:     1.3.0
+ * Version:     1.4.0
  * Author:      Tom McFarlin
  * Author URI:  http://tommcfarlin.com/
  * Text Domain: page-template-dashboard-locale
