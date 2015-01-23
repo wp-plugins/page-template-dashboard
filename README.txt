@@ -4,7 +4,7 @@ Donate link: http://tommcfarlin.com/projects/page-template-dashboard/
 Tags: page, templates
 Requires at least: 3.4
 Tested up to: 3.9.0
-Stable tag: 1.4.0
+Stable tag: 1.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,9 @@ For more information or to follow the project, check out the [project page](http
 1. The Pages Dashboard with the plugin activated.
 
 == Changelog ==
+
+= 1.5.0 =
+* Verifying WordPress 4.1 compatibility
 
 = 1.4.0 =
 * Verifying WordPress 3.9 compatibility
