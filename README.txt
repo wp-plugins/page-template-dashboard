@@ -46,7 +46,7 @@ For more information or to follow the project, check out the [project page](http
 
 == Changelog ==
 
-= 1.5.0 =
+= 1.6.0 =
 
 * Verifying WordPress 4.2.1 compatibility
 
